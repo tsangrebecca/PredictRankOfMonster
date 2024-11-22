@@ -3,19 +3,16 @@ and type $ py -m app.main to rerun the file with all the packages and imports'''
 
 from base64 import b64decode
 import os
-
 import random
 from MonsterLab import Monster # Python package to generate random monsters
 from flask import Flask, render_template, request
 from pandas import DataFrame
-
 from app.data import Database
 from app.graph import chart
 from app.machine import Machine
 
 SPRINT = 3
 APP = Flask(__name__)
-
 
 @APP.route("/")
 def home():
