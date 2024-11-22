@@ -4,6 +4,8 @@ from pandas import DataFrame
 from sklearn.ensemble import RandomForestClassifier
 from datetime import datetime
 
+# From EDA in Colab, I determined that Random forest classifier is the best model
+
 # Define a class Machine to encapsulate model training, prediction,
 #   saving, loading and info about the model
 class Machine:
