@@ -30,6 +30,7 @@ class Database:
         # and a specific collection
         self.collection = self.db['monsters']
 
+    # Would not need this function if I'm loading Kaggle dataset to this app
     def seed(self, amount):
         '''Generate and insert 'amount' number of monsters into the collection.'''
         # Create a list of monster dictionaries: Monster() generates a random monster
