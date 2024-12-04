@@ -4,7 +4,7 @@
 from os import getenv
 from certifi import where
 from dotenv import load_dotenv
-from MonsterLab import Monster # package to generate random monsters
+from MonsterLab import Monster # package created by Bloomtech to generate random monsters
 from pandas import DataFrame
 from pymongo import MongoClient
 
