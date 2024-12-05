@@ -28,7 +28,8 @@ class Database:
         # for real-life dataset, this would be different
         self.db = self.client['monster_db']
 
-        # and a specific collection
+        # and a specific collection within a database
+        # This will also change for real-life dataset
         self.collection = self.db['monsters']
 
     # Would not need this function if I'm loading Kaggle dataset to this app
