@@ -75,7 +75,7 @@ class Database:
 a way to showcase the functionality of the Database class.'''
 if __name__ == '__main__':
 
-    # Set my current sprint value
+    # Set my current sprint value, 1 if just working on data.py file
     SPRINT = 1
 
     # Put the class I just created into good use
