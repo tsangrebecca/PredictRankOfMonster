@@ -25,6 +25,7 @@ class Database:
         self.client = MongoClient(self.mongo_url, tlsCAFile=where())
 
         # specify a particular database we want to work with
+        # for real-life dataset, this would be different
         self.db = self.client['monster_db']
 
         # and a specific collection
