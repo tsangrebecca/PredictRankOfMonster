@@ -8,6 +8,7 @@ from datetime import datetime
 
 # Define a class Machine to encapsulate model training, prediction,
 #   saving, loading and info about the model
+
 class Machine:
     # Constructor method to initialize the Machine object with a dataset (df)
     def __init__(self, df: DataFrame):
