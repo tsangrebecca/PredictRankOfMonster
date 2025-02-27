@@ -1,5 +1,5 @@
 # Run this file in terminal to generate monsters_data.html in the same working directory
-# if not already exists
+#     if not already exists
 
 from os import getenv
 from certifi import where
