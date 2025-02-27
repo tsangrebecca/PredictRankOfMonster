@@ -16,7 +16,7 @@ def chart(df, x, y, target) -> Chart:
             the color of the data points (used for color encoding)
     
     Returns:
-        Chart: An Altair Chart object.
+        Chart: An Altair Chart object
     """
 
     # Create new Chart object using Altair library & assigns it to the variable "graph"
